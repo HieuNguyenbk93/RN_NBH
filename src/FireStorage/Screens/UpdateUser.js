@@ -5,8 +5,8 @@ import {
   KeyboardAvoidingView,
   Alert
 } from 'react-native';
-import Mytextinput from '../Components/Mytextinput';
-import Mybutton from '../Components/Mybutton';
+import Mytextinput from '../../Components/Mytextinput';
+import Mybutton from '../../Components/Mybutton';
 import firestore from '@react-native-firebase/firestore';
 
 const UpdateUser = (props) => {

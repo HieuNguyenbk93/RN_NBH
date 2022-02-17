@@ -8,7 +8,7 @@ import {
   TextInput,
 } from 'react-native';
 
-import Mybutton from '../Components/Mybutton';
+import Mybutton from '../../Components/Mybutton';
 import firestore from '@react-native-firebase/firestore';
 
 const RealTimeAddUpdateUser = () => {

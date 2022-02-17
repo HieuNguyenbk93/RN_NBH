@@ -1,7 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
-import Mybutton from '../Components/Mybutton';
-import Mytext from '../Components/Mytext';
+import Mybutton from '../../Components/Mybutton';
+import Mytext from '../../Components/Mytext';
 
 const HomeScreen = (props) => {
     return (
