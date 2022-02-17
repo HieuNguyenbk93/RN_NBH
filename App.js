@@ -16,8 +16,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-
-import FireStorage from './src/FireStorage';
+import CloundFirestore from './src/CloundFirestore';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -26,8 +25,7 @@ const App = () => {
   };
 
   return (
-      <FireStorage />
-      
+        <CloundFirestore />
   );
 };
 

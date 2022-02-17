@@ -1,19 +1,20 @@
 import { Text, View } from 'react-native'
 import React, { Component } from 'react'
+
+import HomeScreen from './Screens/HomeScreen';
+import RegisterUser from './Screens/RegisterUser';
+import UpdateUser from './Screens/UpdateUser';
+import ViewAllUser from './Screens/ViewAllUser';
+import ViewUser from './Screens/ViewUser';
+import DeleteUser from './Screens/DeleteUser';
+import RealTimeAddUpdateUser from './Screens/RealTimeAddUpdateUser';
+import AddOrderSummary from './Screens/AddOrderSummary';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
-import HomeScreen from '../Screen/HomeScreen';
-import RegisterUser from '../Screen/RegisterUser';
-import UpdateUser from '../Screen/UpdateUser';
-import ViewAllUser from '../Screen/ViewAllUser';
-import ViewUser from '../Screen/ViewUser';
-import DeleteUser from '../Screen/DeleteUser';
-import RealTimeAddUpdateUser from '../Screen/RealTimeAddUpdateUser';
-import AddOrderSummary from '../Screen/AddOrderSummary';
 
 const Stack = createNativeStackNavigator();
 
-const FireStorage = () => {
+const CloundFirestore = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator>
@@ -62,4 +63,4 @@ const FireStorage = () => {
     )
 }
 
-export default FireStorage;
+export default CloundFirestore;
