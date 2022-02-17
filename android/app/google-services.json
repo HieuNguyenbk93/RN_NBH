@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526579563944",
+    "project_id": "rn-nbh",
+    "storage_bucket": "rn-nbh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526579563944:android:9aafebac346b53735b319d",
+        "android_client_info": {
+          "package_name": "com.rnnbhapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526579563944-3auh4anfionrna9k46436344q7tbo5e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASx73PFq83tOOqASEI55hXV7oFepZ4RUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526579563944-3auh4anfionrna9k46436344q7tbo5e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
