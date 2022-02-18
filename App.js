@@ -17,6 +17,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import CloundFirestore from './src/CloundFirestore';
+import CloundStorage from './src/CloundStorage';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -25,7 +26,8 @@ const App = () => {
   };
 
   return (
-        <CloundFirestore />
+        // <CloundFirestore />
+        <CloundStorage/>
   );
 };
 
