@@ -18,6 +18,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import CloundFirestore from './src/CloundFirestore';
 import CloundStorage from './src/CloundStorage';
+import FirebaseAuth from './src/FirebaseAuthentication';
 import InAppMessaging from './src/InAppMessaging';
 
 const App = () => {
@@ -29,7 +30,8 @@ const App = () => {
   return (
         // <CloundFirestore />
         // <CloundStorage/>
-        <InAppMessaging/>
+        // <InAppMessaging/>
+        <FirebaseAuth/>
   );
 };
 
