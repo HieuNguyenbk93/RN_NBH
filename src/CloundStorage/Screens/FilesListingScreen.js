@@ -138,4 +138,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "grey",
   },
+  item: {
+      backgroundColor: '#bfb',
+      color: 'black'
+  }
 });
