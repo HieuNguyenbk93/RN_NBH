@@ -16,6 +16,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import CloudMessaging from './src/CloudMessaging';
 import CloundFirestore from './src/CloundFirestore';
 import CloundStorage from './src/CloundStorage';
 import FirebaseAuth from './src/FirebaseAuthentication';
@@ -31,7 +32,8 @@ const App = () => {
         // <CloundFirestore />
         // <CloundStorage/>
         // <InAppMessaging/>
-        <FirebaseAuth/>
+        // <FirebaseAuth/>
+        <CloudMessaging/>
   );
 };
 
